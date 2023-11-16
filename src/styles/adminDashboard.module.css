@@ -1,0 +1,54 @@
+.gridContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.gridItem {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.radioBtn {
+  cursor: pointer;
+}
+.outlinedBox {
+  color: var(--font-color);
+  border: 1px solid var(--font-color);
+  border-radius: 10px;
+}
+.barXAXis {
+  stroke: #fff;
+  background-color: #fff;
+}
+.outlinedInputBox {
+  color: var(--font-color);
+  border: 1px solid var(--font-color);
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+}
+.outlinedBox:hover {
+  border: 1px solid var(--font-color);
+}
+@media (max-width: 700px) {
+  .gridItem {
+    width: 300px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  .gridContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .barChart {
+    width: 300;
+    height: 300;
+  }
+}

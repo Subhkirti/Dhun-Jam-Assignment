@@ -1,0 +1,52 @@
+.container {
+  width: 626px;
+}
+
+.inputText {
+  width: 600px;
+  padding: 12px;
+  background-color: transparent;
+  color: var(--font-color);
+  border: 1px solid var(--font-color);
+  border-radius: 12px;
+  outline: none;
+}
+.visibilityIcon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.newRegText {
+  font-size: var(--font-size);
+  cursor: pointer;
+}
+.newRegText:hover {
+  text-decoration: underline;
+}
+.errMsg {
+  margin-top: 20px;
+  align-self: start;
+  color:rgb(255, 213, 0);
+}
+
+@media (max-width: 400px) {
+  .inputText {
+    width: 300px;
+  }
+  .container {
+    width: 300px;
+  }
+  
+}
+
+@media (max-width: 700px) {
+  .inputText {
+    width: 500px;
+  }
+  .container {
+    width: 500px;
+  }
+  
+}
